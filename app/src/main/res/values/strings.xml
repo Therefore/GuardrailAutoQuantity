@@ -1,0 +1,29 @@
+
+<resources>
+    <string name="app_name">Guardrail AutoQuantity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <color name="gray">#ff303030</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="buttonGrey">#555555</color>
+    <color name="buttonTextColor">#FFFFFFFF</color>
+    <color name="orange">#FFAE19</color>
+    <color name="offgrey">#FF525252</color>
+
+    <string name="title_activity_quantity">QuantityActivity</string>
+    <string-array name="install_items">
+        <item>ALTERNATE BREAKAWAY CABLE TERMINAL (GR-9)</item><item>ASPHALT CONCRETE TY. SM-9.5A</item><item>DRY RIPRAP CL. I 26in</item><item>ELECTRONIC ARROW</item><item>FIXED OBJECT ATTACH. GR-FOA-1 TY. I</item><item>FIXED OBJECT ATTACH. GR-FOA-1 TY. II</item><item>FIXED OBJECT ATTACH. GR-FOA-2 TY. I</item><item>FIXED OBJECT ATTACH. GR-FOA-2 TY. II</item><item>FIXED OBJECT ATTACH. GR-FOA-3 TY. I</item><item>FIXED OBJECT ATTACH. GR-FOA-3 TY. II</item><item>FIXED OBJECT ATTACH. GR-FOA-4 TY. I</item><item>FIXED OBJECT ATTACH. GR-FOA-4 TY. II</item><item>FIXED OBJECT ATTACH. GR-FOA-4 TY. III</item><item>FLAGGER SERVICE</item><item>GROUP 2 CHANNELIZING DEVICES</item><item>GUARDRAIL ADJUST EXISTING BEAM</item><item>GUARDRAIL BRGR TYPE I (RUN  ON)</item><item>GUARDRAIL BRGR TYPE II (RUN  OFF)</item><item>GUARDRAIL BULL NOSE BARRIER (GORE)</item><item>GUARDRAIL BULL NOSE BARRIER (MEDIAN)</item><item>GUARDRAIL DELINEATOR</item><item>GUARDRAIL GR-10</item><item>GUARDRAIL GR-2</item><item>GUARDRAIL GR-2 8ft POST</item><item>GUARDRAIL GR-2A</item><item>GUARDRAIL GR-3</item><item>GUARDRAIL GR-8 (NCHRP 350 TL-3)</item><item>GUARDRAIL GR-8A (NCHRP 350 TL-3)</item><item>GUARDRAIL GR-8B (NCHRP 350 TL-3)</item><item>GUARDRAIL MB-3 TERMINAL GR-9</item><item>GUARDRAIL OFFSET BLOCK (WOOD OR COMPOSITE)</item><item>GUARDRAIL REMOVE EXISTING IMPACT ATTENUATOR</item><item>GUARDRAIL REUSE EXISTING GR-9 TERMINAL</item><item>GUARDRAIL RUB RAIL</item><item>GUARDRAIL TERMINAL GR-11</item><item>GUARDRAIL TERMINAL GR-3</item><item>GUARDRAIL TERMINAL GR-6 (NCHRP 350)</item><item>GUARDRAIL TERMINAL GR-7 (NCHRP 350)</item><item>GUARDRAIL TERMINAL REMOVAL</item><item>GUARDRAIL TERMINAL SITE PREPARATION</item><item>GUARDRAIL THRIE BEAM ASYMETRICAL</item><item>GUARDRAIL THRIE BEAM SYMETRICAL</item><item>GUARDRAIL W-BEAM</item><item>GUARDRAIL W-BEAM BRIDGE RAIL</item><item>MEDIAN BARRIER MB-3 </item><item>PORTABLE CHANGEABLE MESSAGE SIGN</item><item>RAD. GUARDRAIL GR-2</item><item>RAD. GUARDRAIL GR-2A</item><item>RAILING, TEXAS T-6</item><item>RECONSTRUCT EXIST. SHOULDER RESTORATION/ MACHINE SHOULDERS</item><item>REMOVE EXIST. GUARDRAIL GR</item><item>RESET EXIST. GUARDRAIL GR-2</item><item>REUSE GR TERMINAL GR-7 GR</item><item>REUSE GUARDRAIL EXISTING W-BEAM</item><item>SAW CUT CURB, GUTTER AND ENTRANCES</item><item>TEMP. FILTER BARRIER</item><item>TEMP. SILT FENCE</item><item>TRUCK MOUNTED ATTENUATOR</item><item></item>
+    </string-array>
+    <string name="title_activity_guardrail_location">GuardrailLocationActivity</string>
+    <string-array name="Lane">
+        <item>Northbound</item>
+        <item>Eastbound</item>
+        <item>Southbound</item>
+        <item>Westbound</item>
+    </string-array>
+    <string-array name="Side">
+        <item>Right</item>
+        <item>Left</item>
+    </string-array>
+
+</resources>
