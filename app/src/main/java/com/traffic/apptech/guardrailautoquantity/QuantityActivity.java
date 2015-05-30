@@ -66,6 +66,8 @@ public class QuantityActivity extends AppCompatActivity implements Communicator{
     private boolean bool_install = false;
     private  boolean bool_remove = false;
 
+    //this is a test
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
