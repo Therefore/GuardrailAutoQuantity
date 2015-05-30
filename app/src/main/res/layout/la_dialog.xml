@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:id="@+id/text_speedLimit"
+        android:textSize="15sp"
+        android:text="Speed Limit (MPH)"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edit_speed"
+        android:minWidth="20dp"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:id="@+id/text_distanceFrontRail"
+            android:textSize="15sp"
+            android:text="Distance to front of rail (ft)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:minWidth="20dp"
+            android:id="@+id/edit_distanceFrontRail"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:id="@+id/text_distanceBackHazard"
+            android:textSize="15sp"
+            android:text="Distance to Back of Hazard (ft)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:minWidth="20dp"
+            android:id="@+id/edit_distanceBackHazard"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:text="AADT"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <RadioGroup
+            android:id="@+id/aadtRadioGroup"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/option1k"
+                android:text="Under 1,000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/option1Kto5K"
+                android:text="1,000-5,000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/option5Kto10K"
+                android:text="5,000-10,000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/option10Kplus"
+                android:text="Over 10,000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

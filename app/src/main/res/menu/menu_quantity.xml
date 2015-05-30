@@ -8,23 +8,33 @@
         android:orderInCategory="97"
         app:showAsAction="never" />
 
-    <item android:id="@+id/Guardrailhelpbutton"
+    <item android:id="@+id/btn_guardrailID"
         android:title="Guardrail ID Help"
-        android:orderInCategory="98"
-        android:showAsAction="never"
+        android:orderInCategory="97"
+
         ></item>
 
     <item android:id="@+id/guardrailSummary"
         android:title="Guardrail Summary for this Route"
-        android:orderInCategory="99"
-        android:showAsAction="never"
+        android:orderInCategory="98"
+
         ></item>
 
     <item android:id="@+id/endRoute"
         android:title="End Guardrail Route"
         android:orderInCategory="100"
-        android:showAsAction="never"
+
         ></item>
+
+    <item android:id="@+id/btn_guardrailCondition"
+        android:title="Condition Check"
+        android:orderInCategory="99"
+        ></item>
+    <item android:id="@+id/btn_LON"
+        android:title="Calculate Length of Need"
+        android:orderInCategory="99"
+        ></item>
+
 
 
 </menu>
