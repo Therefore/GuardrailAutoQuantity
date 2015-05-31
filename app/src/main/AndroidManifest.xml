@@ -24,6 +24,7 @@
             android:name=".GuardrailLocationActivity"
             android:label="@string/title_activity_guardrail_location" >
         </activity>
+
     </application>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
