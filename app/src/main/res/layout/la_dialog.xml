@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 <ScrollView
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <LinearLayout
     android:orientation="vertical"
     android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:layout_weight="1"
             android:id="@+id/text_distanceFrontRail"
             android:textSize="15sp"
-            android:text="Distance to front of rail (ft)"
+            android:text="Offset to face of rail (ft)"
             android:layout_width="0dp"
             android:layout_height="wrap_content" />
         <EditText

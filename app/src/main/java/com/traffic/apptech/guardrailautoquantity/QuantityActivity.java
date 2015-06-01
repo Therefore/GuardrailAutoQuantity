@@ -282,6 +282,7 @@ public class QuantityActivity extends AppCompatActivity implements Communicator{
         View promptView = layoutInflater.inflate(R.layout.la_dialog, null);
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(QuantityActivity.this);
         alertDialogBuilder.setView(promptView);
+        alertDialogBuilder.setTitle("Length of Need Calculation");
         final EditText speed = (EditText) promptView.findViewById(R.id.edit_speed);
         final EditText distFrontRail = (EditText) promptView.findViewById(R.id.edit_distanceFrontRail);
         final EditText distBackHazard = (EditText) promptView.findViewById(R.id.edit_distanceBackHazard);
